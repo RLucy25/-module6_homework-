@@ -1,0 +1,76 @@
+body {
+    padding:0;
+    margin:0;
+    border:0
+}
+header {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 40vh;
+    background: url("../img/fog01.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    }
+h1 {
+    color: #473e0e;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer {
+    padding: top 20vh;
+    padding: boottem 60vh;
+    text-align: center;
+}
+div.links {
+    margin-bottom: 10px;
+    }
+div.links > a{
+    color: #473e0e;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.copyright {
+    color: #473e0e;
+}
+.news {
+    background: #FFF;
+    padding: 20px 0 32px;
+}
+article {
+    width: 50%;
+    margin: 0 auto;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(87, 122, 51);
+    }
+article a {
+    color: #000;
+    text-decoration: none;
+   }
+article a:hover {
+    color: rgb(13, 50, 170);
+}
+article h2, div.article-ball, div.article-study,div.article-meta, div.article-vitamins, div.article-weather, article p {
+    text-align:center; 
+}
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 432px;
+    height: 253px;   
+}
+article:nth-child(even) {
+    background-color: rgb(228, 242, 250); 
+}
+article h2.new::before {
+    content: "New";
+    margin-right: 10px;
+    color: #473e0e;
+}
+
